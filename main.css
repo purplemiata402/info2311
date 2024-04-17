@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#nav_logo {
+  color: #c40000;
+  font-size: 2.5em;
+}
+
+.nav-link {
+  font-size: 1.5em;
+  color: #000;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #c40000;
+}
+
+.action {
+  background-color: #f2ecde;
+}
+
+#action-text {
+  text-align: center;
+  padding-top: 15%;
+}
+#action-text h2 {
+  font-size: 3.5em;
+  margin-top: -10px;
+}
+#action-text a {
+  display: inline-block;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #c40000;
+  text-align: center;
+  margin: 10px auto 0 auto;
+  padding: 15px;
+}
+
+#about {
+  scroll-margin-top: 100px;
+}
+#about #about-text {
+  scroll-margin-top: 100px;
+}
+#about #about-text h2 {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+#about #about-text p {
+  margin-left: 35px;
+}
+
+#services {
+  background-color: #f2ecde;
+  padding-bottom: 80px;
+  scroll-margin-top: 100px;
+}
+#services h1 {
+  font-size: 3em;
+  text-transform: capitalize;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+#services .card-body {
+  height: 175px;
+}
+#services .card-body h5 {
+  color: #c40000;
+  font-size: 1.5em;
+}
+
+#carouselTestimonials {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  scroll-margin-top: 100px;
+}
+#carouselTestimonials h5 {
+  color: #c40000;
+  font-size: 2em;
+}
+#carouselTestimonials .location {
+  font-size: 1.3em;
+}
+
+#FAQ {
+  background-color: #f2ecde;
+  padding-bottom: 80px;
+}
+#FAQ h1 {
+  color: #c40000;
+  font-size: 3em;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}/*# sourceMappingURL=main.css.map */

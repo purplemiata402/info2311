@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+       rel="stylesheet"
+       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+       crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Bootstrap 5 CDN Template</title>
+  </head>
+  <body>
+      <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <h1 id="nav_logo"><i class="bi bi-heart-fill me-1 px-1"></i>Pawstastic</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav" style="text-transform: uppercase;">
+                <a class="nav-link" href="index.html">Home</a>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <!-- ======= End Header ======= -->
+
+    <form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+        <div class="container">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+    
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number..">
+    
+                <label for="email">Enter Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email..">
+    
+                <label for="subject">Your Message:</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+    
+                <input name="recipient" type="hidden" value="lolberding@mccneb.edu">
+                <input name="required" type="hidden" value="name,phone,email,subject">
+
+                <input type="submit" value="Submit">
+
+                <input type="hidden" name="return_link_url" value="http://student.mccinfo.net/~anmarquez/info2311/final_project/sass/index.html">
+                <input type="hidden" name="return_link_title" value="Return Home">
+        </div>
+    </form>
+
+    <!-- ======= Footer ======= -->
+    <section>
+        <footer class="text-center text-white">
+        <div class="text-center p-3" style="background-color: #ff5e5e;">
+            © 2024 Copyright:
+            <p class="text-white">
+            This site has been created as part of a school project and does not represent a real company or organization.
+            </p>
+        </div>
+        </footer>
+    </section>
+    <!-- ======= End Footer ======= -->
+
+    <style>
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+    
+        input[type="submit"] {
+            background-color: #ff5e5e;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
+        input[type="submit"]:hover {
+            background-color: #c40000;
+        }
+    
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 100px;
+        }
+    </style>
+
+    <script
+       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+       crossorigin="anonymous">
+    </script>
+  </body>
+</html>
